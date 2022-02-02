@@ -1,0 +1,25 @@
+.jumbo {
+    padding: 50px;
+    background: #f6f6f6;
+  }
+  .container {
+    margin-top: 150px;
+  background-color: #e0d6d6;
+  padding: 50px 75px;
+  display: inline-grid;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-left:500px;
+  }
+.buttons {
+    margin-right: 15px;
+    position: relative;
+    top: -1px;
+    left: -5px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    background-color: #262626;
+    cursor: pointer;
+    opacity: 1;
+  }

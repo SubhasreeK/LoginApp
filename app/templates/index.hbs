@@ -1,0 +1,9 @@
+<form autocomplete="off">
+    <div class="container">
+  <label for="loginOrEmail">Login or Email</label>
+  {{input type="text" valueBinding="loginOrEmail" placeholder="Login or Email"}}<br/>
+  <label for="password">Password</label>
+  {{input type="password" valueBinding="password" placeholder="Password"}}<br/>
+  <LinkTo @route="home" class="button">Login</LinkTo>
+  </div>
+</form>
