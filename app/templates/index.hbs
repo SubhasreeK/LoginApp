@@ -1,9 +1,11 @@
-<form autocomplete="off">
+{{#with (changeset model) as |changeset|}}
+<form autocomplete="off" class="formstyle">
+    <h1>Hi ., Welcome To Our Store</h1>
     <div class="container">
   <label for="loginOrEmail">Login or Email</label>
   {{input type="text" valueBinding="loginOrEmail" placeholder="Login or Email"}}<br/>
   <label for="password">Password</label>
   {{input type="password" valueBinding="password" placeholder="Password"}}<br/>
-  <LinkTo @route="home" class="button">Login</LinkTo>
+  <LinkTo @route="home" class="button" type="submit">Login</LinkTo>
   </div>
 </form>
